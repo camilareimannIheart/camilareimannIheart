@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-label="Now playing cassette deck">
+<defs>
+  <linearGradient id="chromeN" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%"  stop-color="#F2F2F6"/>
+    <stop offset="18%" stop-color="#D8D8E0"/>
+    <stop offset="52%" stop-color="#8B8B99"/>
+    <stop offset="54%" stop-color="#5C5C68"/>
+    <stop offset="88%" stop-color="#A9A9B6"/>
+    <stop offset="100%" stop-color="#EDEDF2"/>
+  </linearGradient>
+  <pattern id="scanN" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="2" fill="#000" opacity="0.16"/>
+  </pattern>
+  <filter id="softN" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="7"/>
+  </filter>
+  <filter id="tightN" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="2.4"/>
+  </filter>
+  <linearGradient id="deck" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#241017"/><stop offset="100%" stop-color="#0B0A0E"/>
+  </linearGradient>
+  <linearGradient id="eqg" x1="0" y1="1" x2="0" y2="0">
+    <stop offset="0%" stop-color="#C6002B"/>
+    <stop offset="62%" stop-color="#FF2D55"/>
+    <stop offset="100%" stop-color="#FFB800"/>
+  </linearGradient>
+  <style>
+    @keyframes eq { 0%,100%{transform:scaleY(.12)} 50%{transform:scaleY(var(--pk,1))} }
+    @keyframes rec{ 0%,100%{opacity:1} 50%{opacity:.2} }
+    .eq   { animation: eq .7s ease-in-out infinite alternate; transform-origin:bottom;
+             transform-box:fill-box; }
+    .rec  { animation: rec 1.1s steps(1,end) infinite; }
+    .mono { font-family:'Courier New',Courier,monospace; }
+    .sig  { font-family: Impact,'Arial Black',sans-serif; }
+    @media (prefers-reduced-motion: reduce) { .eq,.rec { animation:none } }
+  </style>
+</defs>
+  <rect width="900" height="230" rx="10" fill="url(#deck)"/>
+
+  <!-- cassette body -->
+  <g transform="translate(40,42)">
+    <rect width="430" height="148" rx="10" fill="url(#chromeN)"/>
+    <rect x="7" y="7" width="416" height="134" rx="7" fill="#1A0710" stroke="#C6002B" stroke-width="1.6"/>
+    <rect x="24" y="22" width="382" height="40" rx="5" fill="#C6002B"/>
+    <text class="sig" x="215" y="51" text-anchor="middle" font-size="24" letter-spacing="5" fill="#FFE9EC">SIDE A — DAILY MIX</text>
+    <rect x="52" y="74" width="326" height="54" rx="6" fill="#0A0308" stroke="#7A7A88" stroke-width="1.2"/>
+    <g transform="translate(112,101)">
+      <circle r="34" fill="#2A0C14" stroke="#C6002B" stroke-width="2"/>
+      <g><animateTransform attributeName="transform" type="rotate" from="0" to="360"
+            dur="3.6s" repeatCount="indefinite"/>
+        <circle r="27" fill="#3B1019" stroke="#7A7A88" stroke-width="1.4"/>
+        <rect x="-2.6" y="-25" width="5.2" height="16" rx="2.6" fill="#7A7A88" transform="rotate(0)"/><rect x="-2.6" y="-25" width="5.2" height="16" rx="2.6" fill="#7A7A88" transform="rotate(60)"/><rect x="-2.6" y="-25" width="5.2" height="16" rx="2.6" fill="#7A7A88" transform="rotate(120)"/><rect x="-2.6" y="-25" width="5.2" height="16" rx="2.6" fill="#7A7A88" transform="rotate(180)"/><rect x="-2.6" y="-25" width="5.2" height="16" rx="2.6" fill="#7A7A88" transform="rotate(240)"/><rect x="-2.6" y="-25" width="5.2" height="16" rx="2.6" fill="#7A7A88" transform="rotate(300)"/>
+        <circle r="9" fill="#D8D8E0"/><circle r="4" fill="#4A4A55"/>
+      </g></g>
+    <g transform="translate(318,101)">
+      <circle r="34" fill="#2A0C14" stroke="#C6002B" stroke-width="2"/>
+      <g><animateTransform attributeName="transform" type="rotate" from="0" to="360"
+            dur="5.4s" repeatCount="indefinite"/>
+        <circle r="27" fill="#3B1019" stroke="#7A7A88" stroke-width="1.4"/>
+        <rect x="-2.6" y="-25" width="5.2" height="16" rx="2.6" fill="#7A7A88" transform="rotate(0)"/><rect x="-2.6" y="-25" width="5.2" height="16" rx="2.6" fill="#7A7A88" transform="rotate(60)"/><rect x="-2.6" y="-25" width="5.2" height="16" rx="2.6" fill="#7A7A88" transform="rotate(120)"/><rect x="-2.6" y="-25" width="5.2" height="16" rx="2.6" fill="#7A7A88" transform="rotate(180)"/><rect x="-2.6" y="-25" width="5.2" height="16" rx="2.6" fill="#7A7A88" transform="rotate(240)"/><rect x="-2.6" y="-25" width="5.2" height="16" rx="2.6" fill="#7A7A88" transform="rotate(300)"/>
+        <circle r="9" fill="#D8D8E0"/><circle r="4" fill="#4A4A55"/>
+      </g></g>
+    <rect x="150" y="94" width="130" height="14" rx="3" fill="#3A1018"/>
+  </g>
+
+  <!-- tracklist + eq -->
+  <g>
+    <circle class="rec" cx="518" cy="34" r="6" fill="#FF2D55"/>
+    <text class="sig" x="534" y="40" font-size="19" letter-spacing="3.5" fill="#FFE9EC">NOW PLAYING</text>
+    <text class="mono" x="512" y="62" font-size="14" fill="#7A7A88">TRK 01</text><text class="mono" x="574" y="62" font-size="14" fill="#FFE9EC">UI/UX design systems, shipped</text><text class="mono" x="512" y="88" font-size="14" fill="#7A7A88">TRK 02</text><text class="mono" x="574" y="88" font-size="14" fill="#FFE9EC">Angular + TypeScript builds</text><text class="mono" x="512" y="114" font-size="14" fill="#7A7A88">TRK 03</text><text class="mono" x="574" y="114" font-size="14" fill="#FFE9EC">Learning in public, daily</text><text class="mono" x="512" y="140" font-size="14" fill="#7A7A88">TRK 04</text><text class="mono" x="574" y="140" font-size="14" fill="#FFE9EC">Coffee. Playlists. Pixels.</text>
+  </g>
+  <g transform="translate(0,162)"><rect class="eq" x="512.0" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.67s;animation-delay:-0.14s;--pk:0.58"/><rect class="eq" x="524.4" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.91s;animation-delay:-0.53s;--pk:0.93"/><rect class="eq" x="536.8" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.87s;animation-delay:-0.56s;--pk:0.46"/><rect class="eq" x="549.2" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.83s;animation-delay:-0.89s;--pk:0.97"/><rect class="eq" x="561.6" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.50s;animation-delay:-0.64s;--pk:0.54"/><rect class="eq" x="574.0" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.52s;animation-delay:-0.09s;--pk:0.62"/><rect class="eq" x="586.4" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.74s;animation-delay:-0.00s;--pk:0.72"/><rect class="eq" x="598.8" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.56s;animation-delay:-0.48s;--pk:0.61"/><rect class="eq" x="611.2" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.69s;animation-delay:-0.15s;--pk:0.63"/><rect class="eq" x="623.6" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.47s;animation-delay:-0.28s;--pk:0.44"/><rect class="eq" x="636.0" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.57s;animation-delay:-0.20s;--pk:0.61"/><rect class="eq" x="648.4" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.77s;animation-delay:-0.32s;--pk:0.69"/><rect class="eq" x="660.8" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.46s;animation-delay:-0.09s;--pk:0.89"/><rect class="eq" x="673.2" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.79s;animation-delay:-0.66s;--pk:0.47"/><rect class="eq" x="685.6" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.80s;animation-delay:-0.23s;--pk:0.87"/><rect class="eq" x="698.0" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.75s;animation-delay:-0.20s;--pk:0.72"/><rect class="eq" x="710.4" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.62s;animation-delay:-0.28s;--pk:0.45"/><rect class="eq" x="722.8" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.86s;animation-delay:-0.07s;--pk:0.99"/><rect class="eq" x="735.2" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.77s;animation-delay:-0.13s;--pk:0.88"/><rect class="eq" x="747.6" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.90s;animation-delay:-0.51s;--pk:0.72"/><rect class="eq" x="760.0" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.89s;animation-delay:-0.77s;--pk:0.56"/><rect class="eq" x="772.4" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.66s;animation-delay:-0.78s;--pk:0.46"/><rect class="eq" x="784.8" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.62s;animation-delay:-0.98s;--pk:0.94"/><rect class="eq" x="797.2" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.71s;animation-delay:-0.20s;--pk:0.80"/><rect class="eq" x="809.6" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.54s;animation-delay:-0.29s;--pk:0.61"/><rect class="eq" x="822.0" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.71s;animation-delay:-0.07s;--pk:0.92"/><rect class="eq" x="834.4" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.78s;animation-delay:-0.15s;--pk:0.45"/><rect class="eq" x="846.8" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.54s;animation-delay:-0.24s;--pk:0.77"/><rect class="eq" x="859.2" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.79s;animation-delay:-0.86s;--pk:0.81"/><rect class="eq" x="871.6" y="0" width="7.4" height="54" rx="2" fill="url(#eqg)" style="animation-duration:0.45s;animation-delay:-0.38s;--pk:0.68"/></g>
+
+  <rect x="1.5" y="1.5" width="897" height="227" rx="10" fill="none" stroke="#C6002B" stroke-width="3"/>
+</svg>
