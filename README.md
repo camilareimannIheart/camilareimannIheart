@@ -85,11 +85,11 @@ Off the clock: playlists, games, and a suspicious number of half-finished side p
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=camilareimannIheart&show_icons=true&hide_border=false&border_color=C6002B&bg_color=0B0A0E&title_color=FF2D55&icon_color=FF2D55&text_color=FFE9EC&border_radius=8" alt="stats" />
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=camilareimannIheart&show_icons=true&hide_border=false&border_color=C6002B&bg_color=0B0A0E&title_color=FF2D55&icon_color=FF2D55&text_color=FFE9EC&border_radius=8" alt="stats" />
 
 <img height="165" src="https://github-readme-streak-stats-eight.vercel.app/?user=camilareimannIheart&hide_border=false&border=C6002B&background=0B0A0E&stroke=C6002B&ring=FF2D55&fire=FFB800&currStreakNum=FFE9EC&sideNums=FFE9EC&currStreakLabel=FF2D55&sideLabels=FFE9EC&dates=7A7A88" alt="streak" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=camilareimannIheart&layout=compact&langs_count=8&hide_border=false&border_color=C6002B&bg_color=0B0A0E&title_color=FF2D55&text_color=FFE9EC&border_radius=8" alt="top languages" />
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=camilareimannIheart&layout=compact&langs_count=8&hide_border=false&border_color=C6002B&bg_color=0B0A0E&title_color=FF2D55&text_color=FFE9EC&border_radius=8" alt="top languages" />
 
 </div>
 
