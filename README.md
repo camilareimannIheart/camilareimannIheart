@@ -1,12 +1,3 @@
-<!--
-═══════════════════════════════════════════════════════════════════════
-  PROFILE README — Camila Reimann
-  Drop this file in a repo named exactly like your username.
-  Replace every YOUR-USERNAME below (Ctrl+H, one pass, done).
-  The /assets folder must sit next to this file.
-═══════════════════════════════════════════════════════════════════════
--->
-
 <div align="center">
 
 ![ON AIR](assets/on-air-banner.svg)
@@ -14,7 +5,7 @@
 ![](assets/ticker.svg)
 
 <!-- ── hit counter, very 1998 ─────────────────────────────────────── -->
-<img src="https://komarev.com/ghpvc/?username=YOUR-USERNAME&label=LISTENERS%20TUNED%20IN&color=c6002b&style=flat-square" alt="visitor count" />
+<img src="https://komarev.com/ghpvc/?username=camilareimannIheart&label=LISTENERS%20TUNED%20IN&color=c6002b&style=flat-square" alt="visitor count" />
 <img src="https://img.shields.io/badge/last%20login-today-c6002b?style=flat-square" alt="last login" />
 <img src="https://img.shields.io/badge/mood-%E2%99%AA%20caffeinated-ff2d55?style=flat-square" alt="mood" />
 
@@ -94,10 +85,11 @@ Off the clock: playlists, games, and a suspicious number of half-finished side p
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&hide_border=false&border_color=C6002B&bg_color=0B0A0E&title_color=FF2D55&icon_color=FF2D55&text_color=FFE9EC&border_radius=8" alt="stats" />
-<img height="165" src="https://github-readme-streak-stats-eight.vercel.app?user=YOUR-USERNAME&hide_border=false&border=C6002B&background=0B0A0E&stroke=C6002B&ring=FF2D55&fire=FFB800&currStreakNum=FFE9EC&sideNums=FFE9EC&currStreakLabel=FF2D55&sideLabels=FFE9EC&dates=7A7A88" alt="streak" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=camilareimannIheart&show_icons=true&hide_border=false&border_color=C6002B&bg_color=0B0A0E&title_color=FF2D55&icon_color=FF2D55&text_color=FFE9EC&border_radius=8" alt="stats" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&langs_count=8&hide_border=false&border_color=C6002B&bg_color=0B0A0E&title_color=FF2D55&text_color=FFE9EC&border_radius=8" alt="top languages" />
+<img height="165" src="https://github-readme-streak-stats-eight.vercel.app/?user=camilareimannIheart&hide_border=false&border=C6002B&background=0B0A0E&stroke=C6002B&ring=FF2D55&fire=FFB800&currStreakNum=FFE9EC&sideNums=FFE9EC&currStreakLabel=FF2D55&sideLabels=FFE9EC&dates=7A7A88" alt="streak" />
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=camilareimannIheart&layout=compact&langs_count=8&hide_border=false&border_color=C6002B&bg_color=0B0A0E&title_color=FF2D55&text_color=FFE9EC&border_radius=8" alt="top languages" />
 
 </div>
 
@@ -111,8 +103,8 @@ Off the clock: playlists, games, and a suspicious number of half-finished side p
 
 | | | | |
 |:-:|:-:|:-:|:-:|
-| **1.** VS Code | **2.** Figma | **3.** Angular CLI | **4.** DevTools |
-| **5.** Storybook | **6.** Postman | **7.** Notion | **8.** A very long playlist |
+| **1.** Claude Design | **2.** Figma | **3.** Angular CLI | **4.** DevTools |
+| **5.** Storybook | **6.** Postman | **7.** IntelliJ Idea | **8.** A very long playlist |
 
 </div>
 
@@ -121,18 +113,6 @@ Off the clock: playlists, games, and a suspicious number of half-finished side p
 ## 📼 REQUEST LINE
 
 <div align="center">
-
-<a href="https://www.linkedin.com/in/camilareimann/">
-  <img src="https://img.shields.io/badge/LinkedIn-C6002B?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="https://camilareimann.com.br/">
-  <img src="https://img.shields.io/badge/Portfolio-C6002B?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio" />
-</a>
-<a href="mailto:YOUR-EMAIL">
-  <img src="https://img.shields.io/badge/Email-C6002B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-
-<br><br>
 
 <details>
 <summary><b>✍️ SIGN MY GUESTBOOK</b></summary>
